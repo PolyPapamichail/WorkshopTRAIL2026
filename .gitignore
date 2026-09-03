@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# PyTorch models and datasets
+*.pt
+*.pth
+
+# Generated datasets
+generated_data_ramp_10h/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.vsix
+
+# OS
+.DS_Store
+Thumbs.db

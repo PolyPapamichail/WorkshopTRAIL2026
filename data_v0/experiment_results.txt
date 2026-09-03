@@ -1,0 +1,179 @@
+WORKSHOP TRAIL 2026
+BLACK-BOX NEURAL NETWORK EXPERIMENTS
+====================================
+
+EXPERIMENT 1
+-------------
+Architecture:
+12 -> 64 -> 64 -> 1
+
+Activation:
+ReLU
+
+Target:
+Y[:,:,0]
+
+Train/Test:
+70% / 30%
+
+Result:
+MAE: 5.65895
+RMSE: 8.38403
+
+
+EXPERIMENT 2
+-------------
+Architecture:
+12 -> 128 -> 128 -> 64 -> 1
+
+Activation:
+ReLU
+
+Target:
+Y[:,:,0]
+
+Train/Test:
+70% / 30%
+
+Result:
+MAE: 3.03409
+RMSE: 4.95095
+
+
+EXPERIMENT 3
+-------------
+Architecture:
+12 -> 32 -> 32 -> 1
+
+Activation:
+ReLU
+
+Target:
+Y[:,:,0]
+
+Train/Test:
+70% / 30%
+
+Result:
+MAE: 9.53480
+RMSE: 13.09751
+
+
+EXPERIMENT 4
+-------------
+Architecture:
+12 -> 64 -> 64 -> 1
+
+Activation:
+Tanh
+
+Target:
+Y[:,:,0]
+
+Train/Test:
+70% / 30%
+
+Result:
+MAE: 6.87193
+RMSE: 9.48041
+
+
+EXPERIMENT 5
+-------------
+Architecture:
+12 -> 128 -> 128 -> 64 -> 1
+
+Activation:
+ReLU
+
+Dropout:
+0.2
+
+Target:
+Y[:,:,0]
+
+Train/Test:
+70% / 30%
+
+Result:
+MAE: 4.63616
+RMSE: 7.07657
+
+
+EXPERIMENT 6
+-------------
+Architecture:
+12 -> 128 -> 128 -> 64 -> 1
+
+Activation:
+ReLU
+
+Target:
+Y[:,:,1]
+
+Train/Test:
+70% / 30%
+
+Result:
+[RESULT TO BE RECORDED]
+
+
+EXPERIMENT 7
+-------------
+Architecture:
+12 -> 128 -> 128 -> 64 -> 1
+
+Activation:
+ReLU
+
+Target:
+Y[:,:,2]
+
+Train/Test:
+70% / 30%
+
+Result:
+[RESULT TO BE RECORDED]
+
+
+EXPERIMENT 8
+-------------
+Architecture:
+12 -> 128 -> 128 -> 64 -> 1
+
+Activation:
+ReLU
+
+Target:
+Y[:,:,0]
+
+Train/Test:
+80% / 20%
+
+Result:
+MAE: 2.85857
+RMSE: 4.70578
+
+
+EXPERIMENT 9
+-------------
+Architecture:
+12 -> 128 -> 128 -> 64 -> 10
+
+Activation:
+ReLU
+
+Target:
+All Y variables
+
+Train/Test:
+70% / 30%
+
+Result:
+MAE: 84.01790
+RMSE: 170.08841
+
+
+====================================
+END OF CURRENT EXPERIMENT LOG
+====================================

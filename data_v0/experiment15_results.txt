@@ -1,0 +1,11 @@
+EXPERIMENT 15
+5 previous time steps -> 5 future Y values
+
+Overall MAE: 5.340024
+Overall RMSE: 8.772245
+
+Horizon 1: MAE = 4.041779, RMSE = 5.893170
+Horizon 2: MAE = 4.493713, RMSE = 6.996046
+Horizon 3: MAE = 5.374815, RMSE = 8.485918
+Horizon 4: MAE = 6.164314, RMSE = 10.057254
+Horizon 5: MAE = 6.625498, RMSE = 11.310532
